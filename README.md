@@ -1,10 +1,9 @@
 # Base docker configuration for Laravel/Lumen framework
 Configuration:
-1. Move this project in root your project
-2. run init.sh (root folder):
-```bash
-./init.sh
-```
+1. Move docker folder to root your project
+2. Copy `docker/.env.example` to `docker/.env`
+3. Replace `example` on your project name in (docker folder): `docker-compose.yml`, `.env` and `default.conf` files
+4. Adding _your_project_name.test_ on host file
 
 ## Current structure files
 ```
@@ -13,7 +12,6 @@ project
 │   bootstrap
 |   databace
 |   docker
-|   init.sh
 |   etc...
 ```
 
@@ -21,6 +19,3 @@ project
 ```bash
 cd docker && docker-compose up -d
 ```
-
-## After
-After successfully initialization you can deleting `init.sh` file from your project

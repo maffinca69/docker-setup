@@ -19,3 +19,6 @@ project
 ```bash
 cd docker && docker-compose up -d
 ```
+
+### P.S.
+This example based on alpine builds

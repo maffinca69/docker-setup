@@ -6,7 +6,7 @@ Configuration:
 ./init.sh
 ```
 
-# Current structure files
+## Current structure files
 ```
 project
 │   app
@@ -17,10 +17,10 @@ project
 |   etc...
 ```
 
-# Run Project
+## Run Project
 ```bash
 cd docker && docker-compose up -d
 ```
 
-# After
+## After
 After successfully initialization you can deleting `init.sh` file from your project
